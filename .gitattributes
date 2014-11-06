@@ -1,0 +1,6 @@
+# Special rules for line-endings, data types, etc
+
+# Declare files that will always have LF line endings on checkout.
+Pattern/tools/puppet/files/apache2/default text eol=lf
+Pattern/tools/puppet/files/apache2/envvars text eol=lf
+Pattern/tools/puppet/files/php5/apache2.php.ini text eol=lf
